@@ -95,13 +95,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-releases/</url>
+	      <name>enterprise-release</name>
+	      <url>http://13.233.89.145:8082/repository/enterprise-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-snapshot/</url>
+	      <name>enterprise-snapshot</name>
+	      <url>http://13.233.89.145:8082/repository/enterprise-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
