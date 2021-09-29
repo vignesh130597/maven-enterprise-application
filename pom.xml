@@ -19,5 +19,16 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
-  
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>enterprise-release</name>
+	      <url>http://13.233.89.145:8082/repository/enterprise-release/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>enterprise-snapshot</name>
+	      <url>http://13.233.89.145:8082/repository/enterprise-snapshot/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 </project>
